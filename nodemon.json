@@ -1,0 +1,9 @@
+{
+  "exec": "npm run dev",
+  "watch": ["src/*", "public/*"],
+  "ext": "js, html, css, json"
+}
+// .babelrc
+{
+  "presets": ["@babel/preset-env"]
+}
