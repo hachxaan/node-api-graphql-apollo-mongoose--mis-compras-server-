@@ -1,7 +1,13 @@
 {
-  "name": "compras21",
-  "version": "0.0.0",
+  "name": "mis-compras",
+  "version": "1.0.0",
+  "description": "Exam requested by Harumi",
+  "author": "Carlos Alberto Pinacho Miranda",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hachxaan/mis-compras.git"
+  },
   "scripts": {
     "start": "npm run prod",
     "server": "babel-node ./src/bin/www",
@@ -13,9 +19,11 @@
     "watch": "nodemon"
   },
   "dependencies": {
+    "apollo-server-express": "^3.3.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
     "morgan": "~1.9.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2"
